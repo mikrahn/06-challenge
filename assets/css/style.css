@@ -1,0 +1,53 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+div.header {
+  text-align: center;
+
+  align-items: right;
+  justify-content: center;
+  margin-left: 270px;
+}
+
+#search-btn {
+  background-color: darkblue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 75%;
+}
+
+#city-input {
+  border: black solid;
+  color: black;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 75%;
+  height: 10px;
+}
+
+.city-list {
+  list-style-type: none;
+  list-style-position: outside;
+  padding-left: 0;
+  margin: auto;
+}
+
+.list-group-item {
+  border-radius: 15px;
+  background-color: gray !important;
+  padding: 10px;
+  width: 100%;
+  margin: 0;
+}

@@ -1,0 +1,9 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+}
+
+div.header {
+  text-align: center;
+  background-color: pink;
+}
